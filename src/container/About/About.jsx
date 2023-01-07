@@ -21,8 +21,7 @@ function About() {
   return (
     <>
       <h2 className="head-text">
-        <span>Light up your life</span>       
-        with <span>Yash Lights</span>
+        <span>Light up your life</span> with <span>Yash Lights</span>
       </h2>
 
       <div className="app__profiles">
