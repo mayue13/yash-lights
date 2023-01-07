@@ -1,47 +1,28 @@
-import bg from '../assets/bg.png';
-import chef from '../assets/chef.png';
-import G from '../assets/G.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
-import knife from '../assets/knife.png';
+import email from '../assets/email.png';
+import about01 from '../assets/about01.png';
+import about02 from '../assets/about02.png';
+import about03 from '../assets/about03.png';
+import about04 from '../assets/about04.png';
+import profile from '../assets/profile-img.png';
+//import profile from '../assets/profile.png';
+import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-import menu from '../assets/menu.png';
-import overlaybg from '../assets/overlaybg.png';
-import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.png';
-import findus from '../assets/findus.png';
-import laurels from '../assets/laurels.png';
-import award01 from '../assets/award01.png';
-import award02 from '../assets/award02.png';
-import award03 from '../assets/award03.png';
-import award05 from '../assets/award05.png';
-import sign from '../assets/sign.png';
-import quote from '../assets/quote.png';
-import gericht from '../assets/gericht.png';
+import bgVideo1 from '../assets/bg1.mp4'
+import bgVideo2 from '../assets/bg2.MP4'
+import bgVideo3 from '../assets/bg3.mp4'
 
-export default {
-  bg,
-  chef,
-  G,
-  gallery01,
-  gallery02,
-  gallery03,
-  gallery04,
-  knife,
+const Image= { 
+  email,
+  about01,
+  about02,
+  about03,
+  about04,
+  profile,
+  circle,
   logo,
-  menu,
-  overlaybg,
-  spoon,
-  welcome,
-  findus,
-  laurels,
-  award01,
-  award02,
-  award03,
-  award05,
-  sign,
-  quote,
-  gericht,
+  bgVideo1,
+  bgVideo2,
+  bgVideo3
 };
+
+export default Image;
