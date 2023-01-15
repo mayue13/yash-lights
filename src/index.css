@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@400;500;700&display=swap");
+
 
 :root {
   --font-base: "DM Sans", sans-serif;
@@ -10,7 +12,7 @@
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
-  --oddPage-color: #c0d6d2;
+  --oddPage-color: #647773;
 }
 
 * {

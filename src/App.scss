@@ -4,7 +4,7 @@
 }
 
 .app__whitebg {
-  background-color: var(--oddPage-color);
+  background-color: var(--white-color);
 }
 
 .app__primarybg {
@@ -57,7 +57,7 @@
   text-align: center;
   color: var(--black-color);
   text-transform: capitalize;
-
+  font-family:Amita;
   span {
     color: var(--span-color);
   }

@@ -25,23 +25,8 @@ function About() {
       </h2>
 
       <div className="app__profiles">
-        {abouts.map((about, index) => (
-          <motion.div
-            whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: "tween" }}
-            className="app__profile-item"
-            key={about.title + index}
-          >
-            <img src={urlFor(about.imgUrl)} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>
-              {about.title}
-            </h2>
-            <p className="bold-text" style={{ marginTop: 10 }}>
-              {about.description}
-            </p>
-          </motion.div>
-        ))}
+         <p>Welcome to Yash Lights and Power Solutions, your premier Sharpy lights, LED lights, Blender lights, Laser lights and all type of party lights service provider. We specialize in the rental of these powerful lights, providing our customers with the best service and equipment in the industry.</p>
+         <p>Our rental services are perfect for live events, concerts, and theater productions. We have a wide range of Sharpy lights available for rent, from small units to large-scale setups. Our team of experts will work with you to create the perfect lighting solution for your event. We can also provide custom programming and control services to create unique and dynamic lighting effects</p>
       </div>
     </>
   );
