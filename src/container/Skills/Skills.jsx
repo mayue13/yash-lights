@@ -25,7 +25,7 @@ function Skills() {
   return (
     <>
       <h2 className="head-text">
-        Skills <span>&</span> Experience
+        Equipment <span>&</span> Services
       </h2>
 
       <div className="app__skills-container">

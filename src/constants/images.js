@@ -10,6 +10,7 @@ import logo from '../assets/logo.png';
 import bgVideo1 from '../assets/bg1.mp4'
 import bgVideo2 from '../assets/bg2.MP4'
 import bgVideo3 from '../assets/bg3.mp4'
+import bgVideo4 from '../assets/bg31.MP4'
 
 const Image= { 
   email,
@@ -22,7 +23,8 @@ const Image= {
   logo,
   bgVideo1,
   bgVideo2,
-  bgVideo3
+  bgVideo3,
+  bgVideo4
 };
 
 export default Image;
