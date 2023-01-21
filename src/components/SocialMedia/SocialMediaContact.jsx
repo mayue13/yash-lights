@@ -5,10 +5,9 @@ export default function SocialMediaContact (){
 
     return(
         <div className='app__socialContact'>
-            <div><a href='https://twitter.com/MayueDahake' target="_blank" rel="noopener noreferrer"><BsTwitter /></a></div>
-            <div><a href='https://www.instagram.com/mayue.dahake' target="_blank" rel="noopener noreferrer"><BsInstagram/></a></div>
-            <div><a href='https://github.com/mayue13' target="_blank" rel="noopener noreferrer"><BsGithub/></a></div>
-            <div><a href='https://www.linkedin.com/in/mayurdahake/' target="_blank" rel="noopener noreferrer"><BsLinkedin/></a></div>            
+            <div><a href='https://www.facebook.com/profile.php?id=100089752297389' target="_blank" rel="noopener noreferrer"><BsFacebook /></a></div>
+            <div><a href='https://www.instagram.com/yash_lights_official' target="_blank" rel="noopener noreferrer"><BsInstagram/></a></div>
+            <div><a href='https://www.youtube.com/channel/UCaWKYx6sU0ftLXVrtXupkiA' target="_blank" rel="noopener noreferrer"><BsYoutube/></a></div>           
         </div>
 
     )
