@@ -6,18 +6,18 @@ import { urlFor, client } from "../../client";
 
 function Services() {
   const [Services, setServices] = useState([]);
-  const [experience, setExperience] = useState([]);
+  const [Equipment, setEquipment] = useState([]);
 
   useEffect(() => {
-    const expQuery = '*[_type == "experiences"]';
+    const equQuery = '*[_type == "equipment"]';
     const ServicesQuery = '*[_type == "Services"]';
 
     client.fetch(ServicesQuery).then((data) => {
       setServices(data);
     });
 
-    client.fetch(expQuery).then((data) => {
-      setExperience(data);
+    client.fetch(equQuery).then((data) => {
+      setEquipment(data);
     });
   }, []);
  
@@ -30,60 +30,23 @@ function Services() {
 
       <div className="app__Services-container">
         <motion.div className="app__Services-list">
-          {Services?.map((skill) => (
+          {Equipment?.map((equipment) => (
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
               className="app__Services-item app__flex"
-              key={skill.name}
+              key={equipment.name}
             >
               <div
                 className="app__flex"
-                style={{ backgraoundColor: skill.bgColor }}
+                style={{ backgraoundColor: equipment.bgColor }}
               >
-                <img src={urlFor(skill.icon)} alt={skill.name} />
+                <img src={urlFor(equipment.icon)} alt={equipment.name} />
               </div>
-
-              <p className="p-text">{skill.name}</p>
+              <p className="p-text">{equipment.name}</p>
             </motion.div>
           ))}
-        </motion.div>
-
-        <motion.div className="app__Services-exp">
-          {experience?.map((experience) => (
-            <motion.div className="app__Services-exp-item" key={experience.year}>
-              <div className="app__Services-exp-year">
-                <p className="bold-text">{experience.company}</p>
-              </div>
-
-              <motion.div className="app__Services-exp-works">
-                {experience.works.map((work) => (
-                  <>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__Services-exp-work"
-                      data-tip
-                      data-for={work.name}
-                      key={work.name}
-                    >
-                      <h4 className="bold-text">{work.name}</h4>
-                                           
-                    </motion.div>
-                    {/* <ReactTooltip
-                      id={work.name}
-                      effect="solid"
-                      arrowColor="#fff"
-                      className="Services-tooltip"
-                    >
-                      {work.desc}
-                    </ReactTooltip> */}
-                  </>
-                ))}
-              </motion.div>
-            </motion.div>
-          ))}
-        </motion.div>
+        </motion.div>        
       </div>
     </>
   );
