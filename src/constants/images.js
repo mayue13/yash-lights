@@ -4,13 +4,10 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 import profile from '../assets/profile-img.png';
-//import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-import bgVideo1 from '../assets/bg1.mp4'
-import bgVideo2 from '../assets/bg2.MP4'
 import bgVideo3 from '../assets/bg3.mp4'
-import bgVideo4 from '../assets/bg31.MP4'
+import bgVideo4 from '../assets/bgHome.mp4'
 
 const Image= { 
   email,
@@ -20,9 +17,7 @@ const Image= {
   about04,
   profile,
   circle,
-  logo,
-  bgVideo1,
-  bgVideo2,
+  logo,  
   bgVideo3,
   bgVideo4
 };
