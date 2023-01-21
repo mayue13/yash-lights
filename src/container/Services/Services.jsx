@@ -10,9 +10,9 @@ function Services() {
 
   useEffect(() => {
     const equQuery = '*[_type == "equipment"]';
-    const ServicesQuery = '*[_type == "Services"]';
+    const servicesQuery = '*[_type == "services"]';
 
-    client.fetch(ServicesQuery).then((data) => {
+    client.fetch(servicesQuery).then((data) => {
       setServices(data);
     });
 
@@ -46,8 +46,9 @@ function Services() {
               <p className="p-text">{equipment.name}</p>
             </motion.div>
           ))}
-        </motion.div>        
-      </div>
+        </motion.div>     
+       
+      </div>      
     </>
   );
 }
@@ -56,6 +57,6 @@ function Services() {
 
 export default AppWrap(
   MotionWrap(Services, "app__Services"),
-  "Services",
+  "services",
   "app__whitebg"
 );

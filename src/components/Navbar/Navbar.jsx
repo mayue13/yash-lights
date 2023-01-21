@@ -14,7 +14,7 @@ export default function Navbar() {
         <img src={images.logo} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "work", "skills", "testimonials", "contact"].map(
+        {["home", "services", "work", "skills", "testimonials", "contact"].map(
           (item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />
@@ -35,7 +35,7 @@ export default function Navbar() {
             <ul>
               {[
                 "home",
-                "about",
+                "services",
                 "work",
                 "skills",
                 "testimonials",

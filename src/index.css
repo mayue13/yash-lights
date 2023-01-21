@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Amita:wght@400;500;700&display=swap");
-
 
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #53585f;
-  --secondary-color: #44cf3f;
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
-  --oddPage-color: #647773;
+  --span-color:#2fc141;
 }
 
 * {
@@ -20,4 +18,8 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+.span-color {
+   color: #313bac;
 }

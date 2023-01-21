@@ -81,7 +81,7 @@
     }
   }
   
-  .app__Services-exp {
+  .app__services-exp {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -93,7 +93,7 @@
     }
   }
   
-  .app__Services-exp-item {
+  .app__services-exp-item {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -102,7 +102,7 @@
     margin: 1rem 0;
   }
   
-  .app__Services-exp-works {
+  .app__services-exp-works {
     flex: 1;
   
     .app__Services-exp-work {
@@ -125,7 +125,7 @@
     }
   }
   
-  .app__Services-exp-year {
+  .app__services-exp-year {
     margin-right: 3rem;
   
     p {
@@ -138,7 +138,7 @@
     }
   }
   
-  .Services-tooltip {
+  .services-tooltip {
     max-width: 300px !important;
     background-color: var(--white-color) !important;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1) !important;
